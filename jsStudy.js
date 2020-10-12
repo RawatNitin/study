@@ -192,10 +192,27 @@ cosole.log(c[0]); // Return {b: 1}
 Design Patterns:
 https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15
 
+// *************************************** . notation vs bracket notation**********************************
+-- dot notation
+  1 cannot contain special characters except $ and _
+  2 cannot contain only numbers
+  3 cannot contain variables
+  4 cannot contain spaces
+
+-- bracket notation
+  1 key have to be string
+  2 key can be variables strings and spaces or numbers
+
+  //*********************** Code Quality */
+  1 Components should be small and function specific
+  2 Reusability
+  3 No code duplicacy
+  4 Naming conventions should be followed
+  5 code should be testable
+  6 All files related to one component should be in single folder
+  7 Write tests
+  8 Follow linting rules
 
 
 
-
-
-  
 
