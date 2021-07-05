@@ -1,0 +1,90 @@
+body {
+  background: #ffffff;
+  box-sizing: border-box;
+  margin: 0; }
+
+.header {
+  background: #ffffff;
+  top: 0;
+  left: 0; }
+  .header .header-top {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: end; }
+    .header .header-top a {
+      text-decoration: none;
+      color: #555555;
+      font-size: 2rem; }
+      .header .header-top a span {
+        color: #4CAF50; }
+    .header .header-top button {
+      background-color: #4CAF50 !important;
+      border-color: #4CAF50; }
+  .header .header-bottom {
+    background: #4CAF50;
+    position: relative;
+    padding: 1rem; }
+    .header .header-bottom__menu .box-shadow-menu {
+      position: relative; }
+    .header .header-bottom__menu:before {
+      content: "";
+      position: absolute;
+      top: 1.3rem;
+      width: 1.2em;
+      height: 0.15em;
+      background: white;
+      box-shadow: 0 0.25em 0 0 white, 0 0.5em 0 0 white; }
+    .header .header-bottom__icons {
+      display: flex;
+      justify-content: flex-end; }
+
+.show {
+  display: block !important; }
+
+.sidebar {
+  display: none;
+  background: lightgrey;
+  padding-bottom: 1.5rem; }
+  .sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center; }
+    .sidebar ul li {
+      padding: 0.5rem 1rem;
+      font-size: 1.2rem;
+      font-family: 'Segoe UI', Arial, sans-serif; }
+    .sidebar ul a {
+      color: black;
+      text-decoration: none;
+      letter-spacing: 0.2rem; }
+    .sidebar ul li:hover {
+      transition: all 1s ease-out; }
+  .sidebar__close {
+    text-align: right;
+    font-size: 2.5rem;
+    padding: 0.5rem 1rem; }
+
+.html-heading {
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  color: #555555;
+  text-align: center;
+  position: relative; }
+  .html-heading h1 {
+    font-size: 4rem; }
+  .html-heading button:nth-child(1) {
+    position: absolute;
+    left: 0.5rem; }
+  .html-heading button:nth-child(2) {
+    position: absolute;
+    right: 0.5rem; }
+
+video {
+  width: 305px;
+  height: 160px;
+  background: transparent url("../favicon.png") no-repeat 0 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }

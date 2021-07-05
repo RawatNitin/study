@@ -1,5 +1,6 @@
 /* 
 1. Divide an array into equal sum sub arrays.
+3. Maximum subarray Sum
 2. Remove duplicate from array.
 3. .notation vs bracket notation
 4. JSON vs Object
@@ -15,7 +16,6 @@ https://www.freecodecamp.org/news/server-side-rendering-your-react-app-in-three-
 
 
 Create own split method
-Tree operations
 How webpack bundles files
 How lazyloading works
 permutations of String
@@ -29,4 +29,23 @@ Repaint cycle
 less
 realtime app
 react app optimization
+Tree operations
+
+Let vs var
+Js is sync or async
+Is css is part of DOM
+What is target in a tag
+What is srcset
+What are sudo selectors
+Box sizing
+What is normalize css
+What is cache busting
+Reprint vs reflow
+Steps of CRP
+How redux thunk work
+Is there is any priority in event queue
+useCallback
+Use of react clone
+Prop drilling
+Pure component vs component
 
